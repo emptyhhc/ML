@@ -89,7 +89,7 @@ def main():
     feat_num = 4000
     weights = np.random.rand(feat_num+1)
     #in_data = sys.argv[1]
-    in_data = '0805'
+    in_data = '0806'
     weights = train(in_data, weights, batchSize, feat_num)
     printModel('model.txt', weights)
 
